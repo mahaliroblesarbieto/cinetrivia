@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CINETRIVIA  ACTUALIZADO</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <section id="introduccion">
+	  <h1>CINETRIVIA</h1>
+	  <p> Ponemos a prueba tu conocimiento sobre películas. <br>¿Qué tan experto eres?</p>
+	  <input id="nombre" type="text" placeholder="Ingresa tu nombre" >
+	  <button id="botoncito" onclick="comenzar()" align="center"> ¡Empecemos!</button>
+	</section>
+
+	<section id="eleccion">
+	  <h2 id="saludo"></h2>
+	  <p>Selecciona un género cinematográfico:</p>
+	  <button id="bDrama" onclick= "pDrama()">Drama</button>
+	  <button id="bRomance" onclick="pRomance()">Romance</button>
+	</section>
+
+	<section id="drama">
+	  <h2>DRAMA</h2>
+	  
+	  <h3>Pregunta 1</h3>
+	  <p>¿Qué actriz interpretó a Nina en "El Cisne Negro"</p>
+	  <li><input name="lista1D" type="radio" value="A">A) Natalie Portman</input></li>
+	  <li><input name="lista1D" type="radio" value="B">B) Anne Hathaway</input></li>
+	  <li><input name="lista1D" type="radio" value="C">C) Lindsay Lohan</input></li>
+	  
+	  <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto1D"></p>
+	  <p id="incorrecto1D"></p>
+	  <!-- -->
+	    <h3>Pregunta 2</h3>
+	  <p>¿Qué actor interpreta a Jack en la película Titanic?</p>
+	  <li><input name="lista2D" type="radio" value="A">A) Leonardo Dicaprio</input></li>
+	  <li><input name="lista2D" type="radio" value="B">B) Will Smith</input></li>
+	  <li><input name="lista2D" type="radio" value="C">C) Ben Affleck</input></li>
+	  
+	  <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto2D"></p>
+	  <p id="incorrecto2D"></p>
+	  <!-- -->
+	    <h3>Pregunta 3</h3>
+	  <p>¿Con qué película la actriz Anne Hathaway ganó el oscar a "Mejor actriz de reparto"?</p>
+	  <li><input name="lista3D" type="radio" value="A">A) El diario de la princesa</input></li>
+	  <li><input name="lista3D" type="radio" value="B">B) Los miserables</input></li>
+	  <li><input name="lista3D" type="radio" value="C">C) Ocean's 8</input></li>
+	  
+	  <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto3D"></p>
+	  <p id="incorrecto3D"></p>
+	  <!-- -->
+	  <br><br>
+	  <button id="finalizar_drama" onclick="finalizar_drama()">Finalizar</button>
+	  <button id="volver_drama" onclick="window.location.href=window.location.href">Volver a Jugar</button>
+	</section>
+
+	<section id="romance">
+	  <h2>ROMANCE</h2>
+	  
+	  <h3>Pregunta 1</h3>
+	  <p>¿En qué obra de Shakespeare está basada la película "10 Things I Hate About You"?</p>
+	  <li><input name="lista1R" type="radio" value="A">A) Romeo & Julieta</input></li>
+	  <li><input name="lista1R" type="radio" value="B">B) Sueño de una noche de verano</input></li>
+	  <li><input name="lista1R" type="radio" value="C">C) La fierecilla domada</input></li>
+	  
+	   <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto1R"></p>
+	  <p id="incorrecto1R"></p>
+	 
+	  
+	  <h3>Pregunta 2</h3>
+	  <p>¿Cuál es la famosa frase que le dice Julia Roberts a Hugh Grant en Notting Hill?</p>
+	  <li><input name="lista2R" type="radio" value="A">A) Solo soy una chica, parada frente a un panadero, pidiéndole un pandebono.</input></li>
+	  <li><input name="lista2R" type="radio" value="B">B) Solo soy una chica, parada frente a un chico, pidiéndole que la ame.</input></li>
+	  <li><input name="lista2R" type="radio" value="C">C) Solo soy una chica, parada frente a un idiota, pidiéndole que la llame de vez en cuando.</input></li>
+	  
+	  <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto2R"></p>
+	  <p id="incorrecto2R"></p>
+	 
+	  
+	  <h3>Pregunta 3</h3>
+	  <p>¿Qué actriz interpretó a Bridget en la película Bridget Jones'Diary?</p>
+	  <li><input name="lista3R" type="radio" value="A">A) Embeth Davitz</input></li>
+	  <li><input name="lista3R" type="radio" value="B">B) Kate Winslet</input></li>
+	  <li><input name="lista3R" type="radio" value="C">C) Renee Zellweger</input></li>
+	  
+	    <!-- Solo se vera si se da clic en finalizar -->
+	  <p id="correcto3R"></p>
+	  <p id="incorrecto3R"></p>
+
+	  <br><br>
+	  <button id="finalizar_romance" onclick="finalizar_romance()">Finalizar</button>
+	  <button id="volver_romance" onclick="window.location.href=window.location.href">Volver a Jugar</button>
+	</section>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

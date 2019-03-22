@@ -1,0 +1,28 @@
+#eleccion , #drama , #romance {display:none}
+
+#correcto1D , #incorrecto1D, #correcto2D , #incorrecto2D, #correcto3D , #incorrecto3D {display:none; font-size: 165%; text-align: left;}
+#volver_drama {display:none;}
+
+#correcto1R , #incorrecto1R, #correcto2R , #incorrecto2R, #correcto3R , #incorrecto3R {display:none; font-size: 165%; text-align: left;}
+#volver_romance {display:none;}
+
+body{
+	/*background-image: */
+	background-image: url("https://i.pinimg.com/originals/49/4c/6b/494c6b914a7842e7c0e18cb68d41255e.png");
+	color: white; text-align: center; 
+	font-family: 'Montserrat', Calibri,"sans-serif", Verdana, Arial;
+
+}
+
+h1{font-size: 1000%; font-weight: bolder;
+ -webkit-text-stroke: 8px black; text-shadow: 10px 10px #ff0000;
+}
+h2{font-size: 500%}
+p, h3{font-size: 200%; font-weight: bolder;	 }
+button{background-color: #ff0000; padding: 10px; margin-top: 70px;
+    width: 120px; border: solid white; color:white; border-radius:50px;  }
+
+
+#nombre{padding: 8px; margin: 10px; border-radius:50px; border: solid lightgray; width:300px; text-align:center; text-transform: uppercase; font-style: italic; }
+
+li{list-style: none; font-size: 150%; text-align: left;}
