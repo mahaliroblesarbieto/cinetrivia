@@ -14,11 +14,11 @@ body{
 
 }
 
-h1{font-size: 1000%; font-weight: bolder;
- -webkit-text-stroke: 8px black; text-shadow: 10px 10px #ff0000;
+h1{font-size: 450%; font-weight: bolder;
+ -webkit-text-stroke: 4px black; text-shadow: 5px 5px #ff0000;
 }
-h2{font-size: 500%}
-p, h3{font-size: 200%; font-weight: bolder;	 }
+h2{font-size: 350%}
+p, h3{font-size: 150%; font-weight: bolder;	 }
 button{background-color: #ff0000; padding: 10px; margin-top: 70px;
     width: 120px; border: solid white; color:white; border-radius:50px;  }
 
